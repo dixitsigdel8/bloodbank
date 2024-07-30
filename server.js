@@ -3,6 +3,7 @@ const dotenv = require('dotenv')
 const colors = require('colors');
 const morgan = require('morgan');
 const cors = require('cors');
+const sequelize = require("./config/db")
 
 //dot config
 dotenv.config()
